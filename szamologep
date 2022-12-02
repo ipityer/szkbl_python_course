@@ -1,0 +1,9 @@
+print('Ez egy összeadó program.')
+v1 =input ('Első tag:')        
+v2 =input ('Második tag:')
+if v1 == 'kristóf' or v2 == 'kristóf' :
+  print('Az eredmény:  buzi')
+else :
+  v1=float(v1)
+  v2=float(v2)  
+  print('Az eredmény:',int(v1+v2))
